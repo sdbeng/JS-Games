@@ -10,4 +10,17 @@ var divideByThree = function (number) {
 
 divideByThree(45);
 
+##functions
+// Below is the greeting function!
+// See line 7
+// We can join strings together using the plus sign (+)
+// See the hint for more details about how this works.
+// On line 11, call the greeting function!
 
+```
+var greeting = function (name) {
+    console.log("Great to see you," + " " + name);
+};
+
+greeting("mom and dad!");
+```
