@@ -36,7 +36,25 @@ for(var i=0; i <= c; i++){
   console.log(n);
 }
 ```
-Next step: with exceptions
+Next step: with exception1: divisible by 3 and divisible by 5 (not by 3).
 ```
 var n = 0;
+var c = 99;
+for(var i=0; i <= c; i++){
+  	n = i + 1;
+
+	if (n%3 == 0) {
+		console.log("Fizz");
+	}else if (n%5 == 0 && n%3 != 0) {
+		console.log("Buzz");
+	}else{
+		console.log(n);
+	}
+
+}
 ```
+Last step: with exception2: dibisible by 3 and 5.
+```
+var w
+```
+If finished, thanks Jesus!
