@@ -55,6 +55,19 @@ for(var i=0; i <= c; i++){
 ```
 Last step: with exception2: divisible by 3 and 5, will print "FizzBuzz".
 ```
-var w
+var n = 0;
+var c = 99;
+for(var i=0; i <= c; i++){
+  	n = i + 1;
+
+	if (n%3 == 0 && n%5 != 0) {
+		console.log("Fizz");
+	}else if (n%3 == 0 && n%5 == 0) {
+		console.log("FizzBuzz");
+	}else{
+		console.log(n);
+	}
+
+}
 ```
 If finished, thanks Jesus!
