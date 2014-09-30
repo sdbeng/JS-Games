@@ -62,6 +62,7 @@ If you create an infinite loop in one of the examples on these pages, you’ll u
 The continue keyword is similar to break, in that it influences the progress of a loop. When continue is encountered in a loop body, control jumps out of the body, and continues with the loop’s next iteration.
 
 ###Switch Loop
+You may put any number of case labels inside the block opened by switch. The program will jump to the label that corresponds to the value that switch was given or to default if no matching value is found. It starts executing statements there, even if they’re under another label, until it reaches a break statement. In some cases, such as the "sunny" case in the example, this can be used to share some code between cases (it recommends going outside for both sunny and cloudy weather). But beware: it is easy to forget such a break, which will cause the program to execute code you do not want executed.
 ```
 switch (prompt("What is the weather like?")) {
   case "rainy":
