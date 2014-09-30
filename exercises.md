@@ -70,4 +70,30 @@ for(var i=0; i <= c; i++){
 
 }
 ```
+sample output:
+1 
+2 
+Fizz
+4 
+5 
+Fizz
+7 
+8 
+Fizz
+10 
+11 
+Fizz
+13 
+14 
+FizzBuzz
+16 
+17 
+Fizz
+19 
+20 
+Fizz
+22 
+23 
+Fizz
+
 If finished, thanks Jesus!
