@@ -2,7 +2,7 @@
 ##1 Looping a triangle
 
 Write a loop that makes seven calls to console.log to output the following triangle:
-
+```
 #
 ##
 ###
@@ -10,7 +10,7 @@ Write a loop that makes seven calls to console.log to output the following trian
 #####
 ######
 #######
-
+```
 my_solution:
 ```
 var t = 6;
