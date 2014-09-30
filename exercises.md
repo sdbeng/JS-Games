@@ -53,7 +53,7 @@ for(var i=0; i <= c; i++){
 
 }
 ```
-Last step: with exception2: dibisible by 3 and 5.
+Last step: with exception2: divisible by 3 and 5, will print "FizzBuzz".
 ```
 var w
 ```
