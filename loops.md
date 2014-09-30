@@ -21,4 +21,13 @@ console.log(name);
 ```
 This program will force you to enter a name. It will ask again and again until it gets something that is not an empty string. Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true.
 
-##foo
+##For Loops
+wdd
+```
+for (var number = 0; number <= 12; number = number + 2)
+  console.log(number);
+// → 0
+// → 2
+//   … etc
+```
+dwfd
