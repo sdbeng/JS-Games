@@ -61,4 +61,20 @@ If you create an infinite loop in one of the examples on these pages, you’ll u
 
 The continue keyword is similar to break, in that it influences the progress of a loop. When continue is encountered in a loop body, control jumps out of the body, and continues with the loop’s next iteration.
 
-###end
+###Switch Loop
+```
+switch (prompt("What is the weather like?")) {
+  case "rainy":
+    console.log("Remember to bring an umbrella.");
+    break;
+  case "sunny":
+    console.log("Dress lightly.");
+  case "cloudy":
+    console.log("Go outside.");
+    break;
+  default:
+    console.log("Unknown weather type!");
+    break;
+}
+```
+asd
