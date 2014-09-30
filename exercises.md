@@ -36,3 +36,7 @@ for(var i=0; i <= c; i++){
   console.log(n);
 }
 ```
+Next step: with exceptions
+```
+var n = 0;
+```
