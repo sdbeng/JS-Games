@@ -38,4 +38,27 @@ for (var counter = 0; counter < 10; counter = counter + 1)
 console.log(result);
 // → 1024
 ```
-efff
+##Breaking Out of a Loop
+
+Having the loop’s condition produce false is not the only way a loop can finish. There is a special statement called break that has the effect of immediately jumping out of the enclosing loop.
+
+This program illustrates the break statement. It finds the first number that is both greater than or equal to 20 and divisible by 7.
+```
+for (var current = 20; ; current++) {
+  if (current % 7 == 0)
+    break;
+}
+console.log(current);
+// → 21
+```
+The trick with the remainder (%) operator is an easy way to test whether a number is divisible by another number. If it is, the remainder of their division is zero.
+
+The for construct in the example does not have a part that checks for the end of the loop. This means that the loop will never stop unless the break statement inside is executed.
+
+If you were to leave out that break statement or accidentally write a condition that always produces true, your program would get stuck in an infinite loop. A program stuck in an infinite loop will never finish running, which is usually a bad thing.
+
+If you create an infinite loop in one of the examples on these pages, you’ll usually be asked whether you want to stop the script after a few seconds. If that fails, you will have to close the tab that you’re working in, or on some browsers close your whole browser, in order to recover.
+
+The continue keyword is similar to break, in that it influences the progress of a loop. When continue is encountered in a loop body, control jumps out of the body, and continues with the loop’s next iteration.
+
+###end
