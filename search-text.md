@@ -1,6 +1,8 @@
-#title
+#Search your name
 
-##explain
+##writing a short program that checks a block of text for your name.
+
+Specifically, it will check the text for the first letter of your name, then push (add) the number of characters equal to your name's length to an array. By inspecting the array, you'll be able to see if your name was mentioned!
 
 ```
 /*jshint multistr:true */
