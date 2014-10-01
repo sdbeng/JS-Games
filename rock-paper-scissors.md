@@ -35,6 +35,9 @@ var compare = function(choice1,choice2){
             return "scissors wins";
         }
     }
+    else{
+        return "Please pick a valid choice!";
+    }
 };
 
 compare(userChoice,computerChoice);
